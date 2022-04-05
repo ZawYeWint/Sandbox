@@ -1,4 +1,11 @@
+"""
+Description: A simple password checker
+Name: Patrick
+"""
+
+
 def is_valid_password(text):
+    """Check whether a given text has correct password format"""
     return 8 <= len(text) <= 20
 
 
